@@ -1,0 +1,49 @@
+$C-negro: #1D1D1B;
+$C-blanco: #FFFFFF;
+$C-gris: #fafafa;
+$C-rojo: #FF347D;
+$C-celeste: #41C0F6;
+$C-amarillo: #FFCC18;
+
+/* SECCIÓN REVIEWS / CARDS */
+
+.container .contenedor-reviews {
+    padding:60px 0;
+    background: $C-negro;
+    color: $C-gris;
+}
+
+.container .contenedor-reviews .titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    color: $C-amarillo;
+}
+
+.container .contenedor-reviews .card-reviews {
+    border-radius: 20px;
+    background-color: $C-blanco;
+    color: $C-negro;
+    margin: 40px 0;
+}
+
+.container .contenedor-reviews .card-reviews .imagen {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.container .contenedor-reviews .card-reviews .texto {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    padding: 15px;
+}
+
+.container .contenedor-reviews .card-reviews .subtitulo {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    color: $C-amarillo;
+}

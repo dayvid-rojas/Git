@@ -1,0 +1,315 @@
+@charset "UTF-8";
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #FFFFFF; }
+
+/* HERO O BANER PRINCIPAL */
+.container .contenedor-baner {
+  padding: 60px 0;
+  background: #fafafa; }
+
+.container .contenedor-baner .titulo {
+  margin: 0 5px 30px 5px;
+  font-size: 40px;
+  color: #1D1D1B;
+  font-family: 'Permanent Marker', cursive; }
+
+.container .contenedor-baner .titulo .familia {
+  color: #FF347D; }
+
+.container .contenedor-baner .playGuitar {
+  height: 375px; }
+
+/* SECCIÓN CURSOS / CARDS */
+.container .contenedor-curso {
+  padding: 60px 0;
+  background: #1D1D1B;
+  color: #fafafa; }
+
+.container .contenedor-curso .titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px; }
+
+.container .contenedor-curso .card-curso {
+  padding: 50px 0;
+  margin: 40px 0;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #1D1D1B; }
+
+.container .contenedor-curso .card-curso .sub-titulo {
+  display: flex;
+  justify-content: center; }
+
+.container .contenedor-curso .card-curso .imagen {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto; }
+
+.container .contenedor-curso .card-curso .ctaGuitarra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 191px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 4px solid #FF347D;
+  color: #1D1D1B;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s ease;
+  position: relative; }
+
+.container .contenedor-curso .card-curso .ctaGuitarra:hover {
+  background: #FF347D;
+  color: #FFFFFF; }
+
+.container .contenedor-curso .card-curso .ctaBajo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 191px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 4px solid #41C0F6;
+  color: #1D1D1B;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s ease;
+  position: relative; }
+
+.container .contenedor-curso .card-curso .ctaBajo:hover {
+  background: #41C0F6;
+  color: #FFFFFF; }
+
+.container .contenedor-curso .card-curso .ctaBateria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 191px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  border: 4px solid #FFCC18;
+  color: #1D1D1B;
+  text-align: center;
+  text-decoration: none;
+  transition: all 1s ease;
+  position: relative; }
+
+.container .contenedor-curso .card-curso .ctaBateria:hover {
+  background: #FFCC18;
+  color: #FFFFFF; }
+
+/* SECCIÓN TIENDA / CARDS */
+.container .contenedor-tienda {
+  padding: 60px 0;
+  background: #fafafa;
+  color: #1d1d1d; }
+
+.container .contenedor-tienda .titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px; }
+
+.container .contenedor-tienda .card-tienda {
+  padding: 50px 0;
+  margin: 40px 30px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: -3px 5px 20px 5px rgba(222, 222, 222, 0.2); }
+
+.container .contenedor-tienda .card-tienda .imagen {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 140px; }
+
+.container .contenedor-tienda .card-tienda .sub-titulo {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #FF347D; }
+
+.container .contenedor-tienda .card-tienda .texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 0 16px;
+  margin: 15px 0; }
+
+.container .contenedor-tienda .card-tienda .subTitulo {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF347D; }
+
+.container .contenedor-tienda .cta-tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+  width: 191px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #FF347D;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  position: relative; }
+
+.container .contenedor-tienda .cta-tienda:hover {
+  box-shadow: 0 4px 16px #ac315a;
+  transition: all 0.2s ease; }
+
+/* SECCIÓN REVIEWS / CARDS */
+.container .contenedor-reviews {
+  padding: 60px 0;
+  background: #1D1D1B;
+  color: #fafafa; }
+
+.container .contenedor-reviews .titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+  color: #FFCC18; }
+
+.container .contenedor-reviews .card-reviews {
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #1D1D1B;
+  margin: 40px 0; }
+
+.container .contenedor-reviews .card-reviews .imagen {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto; }
+
+.container .contenedor-reviews .card-reviews .texto {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  padding: 15px; }
+
+.container .contenedor-reviews .card-reviews .subtitulo {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  color: #FFCC18; }
+
+/* SECCIÓN BLOG / CARDS */
+.container .contenedor-blog {
+  padding: 60px 0;
+  background: #fafafa;
+  color: #1D1D1B; }
+
+.container .contenedor-blog .titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+  color: #41C0F6; }
+
+.container .contenedor-blog .card-blog {
+  margin: 40px 30px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: -3px 5px 20px 5px rgba(222, 222, 222, 0.2); }
+
+.container .contenedor-blog .card-blog .imagen {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 140px; }
+
+.container .contenedor-blog .card-blog .sub-titulo {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #FF347D; }
+
+.container .contenedor-blog .card-blog .texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 0 16px;
+  margin: 15px 0; }
+
+.container .contenedor-blog .card-blog .subTitulo {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF347D; }
+
+.container .contenedor-blog .cta-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+  width: 191px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #41C0F6;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  position: relative; }
+
+.container .contenedor-blog .cta-blog:hover {
+  box-shadow: 0 4px 16px #318aac;
+  transition: all 0.2s ease; }
+
+/* SECCIÓN FOOTER */
+.container .contenedor-footer {
+  display: flex;
+  justify-content: center;
+  padding: 15px 50px;
+  background-color: #1D1D1B; }
+
+.container .contenedor-footer .texto {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px; }
+
+.container .contenedor-footer .redes {
+  display: flex;
+  justify-content: center; }
+
+.container .contenedor-footer .imagen {
+  height: 18px;
+  margin: 0 0 0 15px;
+  padding: 5px auto; }

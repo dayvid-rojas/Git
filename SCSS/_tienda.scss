@@ -1,0 +1,86 @@
+$C-negro: #1D1D1B;
+$C-blanco: #FFFFFF;
+$C-gris: #fafafa;
+$C-rojo: #FF347D;
+$C-celeste: #41C0F6;
+$C-amarillo: #FFCC18;
+
+/* SECCIÓN TIENDA / CARDS */
+
+.container .contenedor-tienda {
+    padding:60px 0;
+    background: $C-gris;
+    color: #1d1d1d;
+}
+
+.container .contenedor-tienda .titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+}
+
+.container .contenedor-tienda .card-tienda {
+    padding: 50px 0;
+    margin: 40px 30px;
+    border-radius: 20px;
+    background-color: $C-blanco;
+    box-shadow: -3px 5px 20px 5px rgba(222, 222, 222, 0.2);
+}
+
+.container .contenedor-tienda .card-tienda .imagen {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 140px;
+}
+
+.container .contenedor-tienda .card-tienda .sub-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: $C-rojo;
+}
+
+.container .contenedor-tienda .card-tienda .texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0 16px;
+    margin: 15px 0;
+}
+
+.container .contenedor-tienda .card-tienda .subTitulo {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: $C-rojo;
+}
+
+.container .contenedor-tienda .cta-tienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: $C-rojo;
+    color: $C-blanco;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    position: relative;
+}
+
+.container .contenedor-tienda .cta-tienda:hover {
+    box-shadow: 0 4px 16px rgb(172, 49, 90);
+    transition: all 0.2s ease;
+}

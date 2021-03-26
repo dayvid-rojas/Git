@@ -1,0 +1,28 @@
+$C-negro: #1D1D1B;
+$C-blanco: #FFFFFF;
+$C-gris: #fafafa;
+$C-rojo: #FF347D;
+$C-celeste: #41C0F6;
+$C-amarillo: #FFCC18;
+
+/* HERO O BANER PRINCIPAL */
+
+.container .contenedor-baner {
+    padding:60px 0;
+    background: $C-gris;
+}
+
+.container .contenedor-baner .titulo {
+    margin:0 5px 30px 5px;
+    font-size: 20px + 20;
+    color: $C-negro;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container .contenedor-baner .titulo .familia {
+    color: $C-rojo;
+}
+
+.container .contenedor-baner .playGuitar {
+    height: 400px - 25;
+}

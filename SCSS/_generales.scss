@@ -1,0 +1,18 @@
+$C-negro: #1D1D1B;
+$C-blanco: #FFFFFF;
+$C-gris: #fafafa;
+$C-rojo: #FF347D;
+$C-celeste: #41C0F6;
+$C-amarillo: #FFCC18;
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: $C-blanco;
+}

@@ -1,0 +1,109 @@
+$C-negro: #1D1D1B;
+$C-blanco: #FFFFFF;
+$C-gris: #fafafa;
+$C-rojo: #FF347D;
+$C-celeste: #41C0F6;
+$C-amarillo: #FFCC18;
+
+/* SECCIÓN CURSOS / CARDS */
+
+.container .contenedor-curso {
+    padding:60px 0;
+    background: $C-negro;
+    color: $C-gris;
+}
+
+.container .contenedor-curso .titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+}
+
+.container .contenedor-curso .card-curso {
+    padding: 50px 0;
+    margin: 40px 0;
+    border-radius: 20px;
+    background-color: $C-blanco;
+    color: $C-negro;
+}
+
+.container .contenedor-curso .card-curso .sub-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.container .contenedor-curso .card-curso .imagen {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.container .contenedor-curso .card-curso .ctaGuitarra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid $C-rojo;
+    color: $C-negro;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.container .contenedor-curso .card-curso .ctaGuitarra:hover {
+    background: $C-rojo;
+    color: $C-blanco;
+}
+
+.container .contenedor-curso .card-curso .ctaBajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid $C-celeste;
+    color: $C-negro;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.container .contenedor-curso .card-curso .ctaBajo:hover {
+    background: $C-celeste;
+    color: $C-blanco;
+}
+
+.container .contenedor-curso .card-curso .ctaBateria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid $C-amarillo;
+    color: $C-negro;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.container .contenedor-curso .card-curso .ctaBateria:hover {
+    background: $C-amarillo;
+    color: $C-blanco;
+}

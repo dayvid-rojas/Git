@@ -1,0 +1,438 @@
+/*
+negro: 1D1D1B
+blanco: FFFFFF
+rojo: FF347D
+celeste: 41C0F6
+amarillo: FFCC18
+*/
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.container .row .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.container .row .col .lista {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container .row .col .lista .texto {
+    width: 100px;
+    margin: 0 0 0 20px;
+}
+
+.container .row .col .lista .texto .textoIn {
+    color: #1D1D1B;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/* HERO O BANER PRINCIPAL */
+
+.container .portada {
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.container .portada .informacion {
+    padding: 0 30px;
+}
+
+.container .portada .playGuitar {
+    margin: 40px 0;
+}
+
+.container .portada .informacion .titulo {
+    
+    margin: 40px 0;
+    font-size: 45px;
+    color: #1D1D1B;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container .portada .informacion .titulo .familia {
+    color: #FF347D;
+}
+
+/* SECCIÓN CURSOS / CARDS */
+
+.container .cursos {
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 27px;
+    padding: 30px 10px 30px 10px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #1D1D1B;
+}
+
+.container .cursos .contenedor {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container .cursos .contenedor .cardCurso {
+    padding: 50px 0 50px 0;
+    width: 332px;
+    height: 426px;
+    margin: 40px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.container .cursos .contenedor .cardCurso .ctaGuitarra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid #FF347D;
+    color: #1D1D1B;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .cursos .contenedor .cardCurso .ctaBajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid #41C0F6;
+    color: #1D1D1B;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .cursos .contenedor .cardCurso .ctaBateria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 4px solid #FFCC18;
+    color: #1D1D1B;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .cursos .contenedor .cardCurso .titulo {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-style:normal;
+    color: #1D1D1B;
+}
+
+.container .cursos .contenedor .cardCurso .imagen {
+    margin: 40px 0 40px 0;
+}
+
+/* SECCIÓN TIENDA / CARDS */
+
+.container .tienda {
+    color: #1D1D1B;
+    text-align: center;
+    font-size: 27px;
+    padding: 30px 10px 30px 10px;
+    margin: 40px auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container .tienda .subtitulo .subTienda{
+    color: #FF347D;
+}
+
+/*.container .tienda .carousel slide {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}*/
+
+.container .tienda #carouselExampleIndicators {
+
+    padding: 50px 0 50px 0;
+    width: 350px;
+    height: 517px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: -3px 5px 20px 5px rgba(222, 222, 222, 0.2);
+}
+
+.container .tienda #carouselExampleIndicators .carousel-indicators {
+    width: 300px;
+    margin: 20px;
+}
+
+.container .tienda #carouselExampleIndicators .carousel-indicators .carousel-item .titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FF347D;
+}
+
+.container .tienda .contenedor .cardTienda .texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 18px 25px;
+}
+
+.container .tienda .contenedor .cardTienda .subTitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FF347D;
+}
+
+.container .tienda .ctaTienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #FF347D;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* SECCIÓN REVIEWS / CARDS */
+
+.container .reviews {
+    color: #FFCC18;
+    text-align: center;
+    font-size: 27px;
+    padding: 30px 10px 30px 10px;
+    margin: 40px 0;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #1d1d1d;
+}
+
+.container .reviews .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .reviews .contenedor .cardReview {
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+}
+
+.container .reviews .contenedor .cardReview .contenedorReview{
+    display: flex;
+    flex-direction: row 
+}
+
+.container .reviews .contenedor .cardReview .contenedorReview .imagen{
+    height: 120px;
+    margin: 45px 30px;
+}
+
+.container .reviews .contenedor .cardReview .contenedorReview .texto {
+    display: flex;
+    flex-direction: column;
+    width: 245.16px;
+    font-size: 16px;
+    margin: 35px 30px;
+    text-align: left;
+    color: #1D1D1B;
+}
+
+.container .reviews .contenedor .cardReview .contenedorReview .subtitulo {
+    text-align: left;
+    font-size: 23px;
+    margin: 17px 0;
+    color: #FFCC18;
+    font-weight: 800;
+}
+
+/* SECCIÓN NUESTROS PROFESORES / CARDS */
+
+.container .profesores {
+    color: #ffffff;
+    text-align: center;
+    font-size: 27px;
+    padding: 30px 10px 30px 10px;
+    margin: 0 0;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #1d1d1d;
+}
+
+.container .profesores .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 0 0 20px;
+}
+
+.container .profesores .contenedor .cardReview {
+    font-family: 'Open Sans', sans-serif;
+    height: 204px;
+    width: 500px;
+    margin: 30px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+}
+
+.container .profesores .contenedor .cardReview .contenedorReview {
+    display: flex;
+    flex-direction: row 
+}
+
+.container .profesores .contenedor .cardReview .contenedorReview .imagen{
+    height: 120px;
+    margin: 45px 30px;
+}
+
+.container .profesores .contenedor .cardReview .contenedorReview .texto {
+    display: flex;
+    flex-direction: column;
+    width: 245.16px;
+    font-size: 16px;
+    margin: 35px 30px;
+    text-align: left;
+    color: #1D1D1B;
+}
+
+.container .profesores .contenedor .cardReview .contenedorReview .subtitulo {
+    text-align: left;
+    font-size: 23px;
+    margin: 17px 0;
+    color: #FFCC18;
+    font-weight: 800;
+}
+
+
+/* SECCIÓN BLOG / CARDS */
+
+.container .blog {
+    color: #41C0F6;
+    text-align: center;
+    font-size: 27px;
+    padding: 30px 10px 30px 10px;
+    margin: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container .blog .titulo {
+    color: #1D1D1B;
+}
+
+.container .blog .cursosTexto {
+    color: #FF347D;
+}
+
+.container .blog .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.container .blog .subtituloCursoIn {
+    margin: 20px 0 0 0;
+    color: #1D1D1B;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.container .blog .contenedorBlog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .blog .contenedorBlog .cardBlog {
+    width: 340px;
+    height: 300px;
+    margin: 0 10px;
+    padding: 25px 0;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: -3px 5px 20px 5px rgba(222, 222, 222, 0.2);
+}
+
+.container .blog .contenedorBlog .cardBlog .imagen {
+    width: 340px;
+    vertical-align: bottom;
+}
+
+.container .blog .contenedorBlog .cardBlog .texto {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #1D1D1B;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.container .blog .ctaBlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    width: 191px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #41C0F6;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* SECCIÓN FOOTER */
+
+.container .footer {
+    height: 80px;
+    padding: 0 50px;
+    background-color: #1D1D1B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .footer .texto {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.container .footer .imagen {
+    height: 18px;
+    margin: 0 0 0 15px;
+}
